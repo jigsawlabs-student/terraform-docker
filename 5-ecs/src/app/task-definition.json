@@ -1,0 +1,21 @@
+{
+    "family": "simpleflask",
+    "containerDefinitions": [
+      {
+        "name": "flaskapp",
+        "image": "086729879076.dkr.ecr.us-east-1.amazonaws.com/flask_app",
+        "cpu": 128,
+        "memoryReservation": 128,
+        "portMappings": [
+          {
+            "containerPort": 5000,
+            "protocol": "tcp"
+          }
+        ],
+        "command": [
+          "run", "--host", "0.0.0.0"
+        ],
+        "essential": true
+      }
+    ]
+  }

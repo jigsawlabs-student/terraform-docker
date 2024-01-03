@@ -1,0 +1,22 @@
+{
+    "family": "sinatra-hi",
+    "cpu": "512",
+    "memory": "2048",
+    "containerDefinitions": [
+      {
+        "name": "web",
+        "image": "tongueroo/sinatra:latest",
+        "cpu": 256,
+        "memoryReservation": 512,
+        "portMappings": [
+          {
+            "containerPort": 4567,
+            "hostPort": 0,
+            "protocol": "tcp"
+          }
+        ],
+        "essential": true
+      }
+    ]
+  }
+  

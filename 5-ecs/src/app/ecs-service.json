@@ -1,0 +1,6 @@
+{
+    "cluster": "flaskapplication",
+    "serviceName": "flask-service",
+    "taskDefinition": "simpleflask",
+    "desiredCount": 1
+}
