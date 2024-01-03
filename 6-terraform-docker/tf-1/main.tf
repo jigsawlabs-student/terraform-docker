@@ -9,8 +9,8 @@ terraform {
 
 provider "aws" {
   region  = "us-east-1" # The region where environment is going to be deployed # Use your own region here
-  access_key = "AKIARIMMA5YSNF5MVN5O" 
-  secret_key = "ppoyX4YkHSLCZA4L85w5F3kYjQ9gFxb60puqb2+G"
+  access_key = "" 
+  secret_key = ""
 }
 
 
